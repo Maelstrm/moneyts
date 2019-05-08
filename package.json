@@ -1,0 +1,20 @@
+{
+  "name": "moneyts",
+  "version": "1.0.0",
+  "description": "A command-line tool for managing money",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no tests installed\" && exit 1",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./build/index.js",
+    "income-output": "tsc ; node ./build/app/income/index.js"
+  },
+  "author": "Jakeh Clark",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mathjs": "^5.0.1",
+    "@types/node": "^12.0.0",
+    "mathjs": "^5.9.0"
+  }
+}
