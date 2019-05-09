@@ -1,0 +1,58 @@
+{
+  "month": "2020-05-01T05:00:00.000Z",
+  "numberOfFridays": 5,
+  "income": {
+    "paycheck": [
+      {
+        "date": "2020-05-01T05:00:00.000Z",
+        "amount": 2000
+      },
+      {
+        "date": "2020-05-15T05:00:00.000Z",
+        "amount": 2000
+      }
+    ],
+    "irregularIncome": [
+      {
+        "date": "2020-05-27T05:00:00.000Z",
+        "amount": 1500
+      },
+      {
+        "date": "2020-05-31T05:00:00.000Z",
+        "amount": 725
+      }
+    ]
+  },
+  "savings": {
+    "bankSavings": {
+      "emergencyFund": 50,
+      "funFund": 23,
+      "billPayBuffer": 20
+    },
+    "investments": {
+      "betterment": {
+        "emergencyBackup": 25,
+        "retirementTaxable": 10,
+        "retirementRothIra": 41
+      },
+      "m1Finance": 33
+    }
+  },
+  "monthlyBills": {
+    "rent": 550,
+    "phone": 45,
+    "carInsurance": 102,
+    "acornsApp": 1,
+    "googleStorage": 2
+  },
+  "debts": {
+    "creditCard": 200,
+    "fedLoan": 200,
+    "aspireLoan": 200
+  },
+  "allowance": {
+    "groceries": 70,
+    "gas": 20,
+    "misc": 50
+  }
+}

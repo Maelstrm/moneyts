@@ -1,8 +1,4 @@
+const currentMonth = require ('./app/data/05-2020.json')
+import { printStatement } from './app/components/statement'
 
-
-function display() {
-  console.log("hello world")
-  return
-}
-
-display()
+printStatement(currentMonth)

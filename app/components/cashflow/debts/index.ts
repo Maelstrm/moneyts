@@ -1,5 +1,5 @@
 interface Debts {
-  creditCardBalance: number,
+  creditCard: number,
   fedLoan: number,
   aspireLoan: number,
 }
